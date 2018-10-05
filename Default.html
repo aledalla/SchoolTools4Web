@@ -1,0 +1,30 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="27996083320-vanbjd9pblftu2sgq2m1ilm7du8oj8mr.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+      <script src="js/core.js"></script>
+    <link href="styles/Home.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="external">
+
+            <!--<div class="g-signin2" data-onsuccess="onSignIn" onclick="authenticate().then(loadClient); authenticateCourses().then(loadClient); authenticateClassWorks().then(loadClient)">authorize and load</div>-->
+            <button class="logga" onclick="authenticate().then(loadClient); authenticateCourses().then(loadClient); authenticateClassWorks().then(loadClient)">Accedi con Google</button>
+        <button onclick="loggaStream()">log</button>
+
+    </div>
+
+    <a href="#" onclick="signOut();">Sign out</a>
+    
+    
+
+
+
+</body>
+</html>

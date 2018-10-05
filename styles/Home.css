@@ -1,0 +1,21 @@
+﻿.external {
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 15%;
+    bottom: 15%;
+    width: 30%;
+    height: 70%;
+    border-style: solid;
+    background-color: #e6ffee;
+    border-radius:10px;
+}
+.logga{
+    position:absolute;
+    left:30%;
+    right:30%;
+    width:40%;
+    top:60%;
+    bottom:40%;
+    height:10%;
+}
